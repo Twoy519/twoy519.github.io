@@ -23,6 +23,7 @@
 }
 
 .intro-header {
-    background: none;
-    height: 70px;
+    background: no-repeat;
+    background-size: cover;
+    height: 700px;
 }
