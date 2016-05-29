@@ -1,0 +1,15 @@
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-custom{
+    background-color: white;
+}
+
+.navbar-custom .nav li a {
+    color: #000;
+}
+
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+    color: #636363;
+}
