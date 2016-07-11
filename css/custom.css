@@ -39,5 +39,7 @@
 }
 
 .homepage-text {
-    padding: 290px;
+    padding: 290px 0;
+    text-align: center;
+    color: #fff;
 }
