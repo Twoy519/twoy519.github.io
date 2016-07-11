@@ -48,9 +48,9 @@
     height: 600px;
 }
 
-.carousel-inner > .item > a > img {
-  line-height: 1;
-  height: 600px;
+.carousel-inner > .item > img {
+    line-height: 1;
+    height: 600px;
 }
 
 .carousel-control.left {
