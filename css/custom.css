@@ -43,3 +43,7 @@
     text-align: center;
     color: #fff;
 }
+
+.carousel-inner {
+    height: 600px;
+}
