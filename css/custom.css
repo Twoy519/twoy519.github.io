@@ -51,12 +51,14 @@
 .carousel-inner > .item > img {
     line-height: 1;
     height: 600px;
+    position: relative;
+    left: 12%;
 }
 
-/*.carousel-control.left {
+.carousel-control.left {
     background-image: none;
 }
 
 .carousel-control.right {
     background-image: none;
-}*/
+}
