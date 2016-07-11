@@ -56,13 +56,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="#about_us">About Us</a>
                     </li>
                     <li>
-                        <a href="post.html">Wedding Events</a>
+                        <a href="#about_our_homies">About Our Homies</a>
                     </li>
                     <li>
-                        <a href="contact.html">Travel</a>
+                        <a href="#map_embed">Location</a>
                     </li>
                     <li>
                         <a href="contact.html">Accomodations</a>
@@ -105,12 +105,80 @@
     </header>
 
     <!-- Main Content -->
+    <!-- About Us -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <h2  id="about_us" class="post-title">
+                        A Bit About Us
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        This section describes Anna and Troy
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Slideshow -->
+        <div class="row">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/slide_1_smiles.jpg" alt="Hiyeeeee">
+                </div>
+                <div class="item">
+                  <img src="img/slide_2_annas_pose.jpg" alt="This is Anna's 'How do I loook?' pose.">
+                </div>
+                <div class="item">
+                  <img src="img/slide_3_chillin.jpg" alt="Look at this awesome romantic door we're standing beside.">
+                </div>
+              </div>
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+    </div>
+    <!-- About Our Homies -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <h2  id="about_our_homies" class="post-title">
+                        A Bit About Our Homies
+                    </h2>
+                </div>
+                <div>
+                    <p>
+                        This section describes Anna and Troy's Homies
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Location -->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
                     <a href="http://www.triplesranchnapa.com/">
-                        <h2 class="post-title">
+                        <h2  id="map_embed" class="post-title">
                             SSS Ranch: Calistoga, California
                         </h2>
                     </a>
@@ -126,32 +194,12 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.475104664473!2d-122.6392757!3d38.56890569999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80844170be1f1fe7%3A0x9121b3577c2a2f8!2sSSS+Ranch+Napa!5e0!3m2!1sen!2sus!4v1464478657873" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            If carrots got you drunk, rabbits would be fucked up.
-                        </h2>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="post.html">
-                        <h2 class="post-title">
-                            My fake plants died because I did not pretend to water them.
-                        </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Anna Freedenfeld</a> on May 28, 2016</p>
-                </div>
                 <!-- Pager -->
-                <ul class="pager">
+                <!-- <ul class="pager">
                     <li class="next">
                         <a href="#">Older Posts &rarr;</a>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </div>
