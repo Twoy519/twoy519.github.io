@@ -63,6 +63,10 @@
     background-image: none;
 }
 
-.comment-box{
+.comment-box {
     text-align: center;
+}
+
+.page_break {
+    align: middle;
 }
