@@ -44,15 +44,20 @@
     color: #fff;
 }
 
-.carousel-inner {
+/*.carousel-inner {
     height: 600px;
-}
+}*/
 
 .carousel-inner > .item > img {
     line-height: 1;
-    height: 600px;
+    /*height: 600px;*/
     position: relative;
-    left: 12%;
+    left: 12.5%;
+    max-width: 75%;
+}
+
+.carousel-caption {
+    posiition: none;
 }
 
 .carousel-control.left {
