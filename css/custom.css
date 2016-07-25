@@ -1,3 +1,17 @@
+header {
+    position: relative;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+header h1 {
+    position: absolute;
+    top: 0;
+}
+
 .navbar {
   margin-bottom: 0px;
   text-align: center;
@@ -28,7 +42,7 @@
 }
 
 .intro-header {
-    /*background: no-repeat;*/
+    background: no-repeat;
     background-size: cover;
     height: 800px;
 }
