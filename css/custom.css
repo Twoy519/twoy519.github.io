@@ -28,9 +28,9 @@
 }
 
 .intro-header {
-    background: no-repeat;
+    /*background: no-repeat;*/
     background-size: cover;
-    height: 700px;
+    height: 800px;
 }
 
 .container-fluid-custom {
