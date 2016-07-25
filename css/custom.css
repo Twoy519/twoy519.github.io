@@ -80,3 +80,7 @@ nav#always-fixed {
 .home-img {
     width: 100%;
 }
+
+.intro-heading .site-heading {
+    padding: 10%;
+}
