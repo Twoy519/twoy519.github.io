@@ -57,7 +57,7 @@
 }
 
 .carousel-indicators {
-    position: none;
+    opacity: 0;
 }
 
 .carousel-control.left {
