@@ -1,3 +1,7 @@
+a:hover, a:focus {
+    color: #827D7D;
+}
+
 .btn {
     border-radius: 4px;
 }
@@ -30,7 +34,7 @@
 }
 
 .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
-    color: #636363;
+    color: #827D7D;
 }
 
 .navbar-custom .navbar-brand {
