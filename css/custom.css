@@ -2,6 +2,10 @@ a:hover, a:focus {
     color: #827D7D;
 }
 
+a img:hover, a img:focus {
+    cursor: pointer;
+}
+
 .btn {
     border-radius: 4px;
 }
