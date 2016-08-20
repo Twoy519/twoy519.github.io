@@ -8,12 +8,12 @@ a:hover, a:focus {
 
 .btn-primary {
     background-color: #333333;
-    border-color: #827D7D;
+    border-color: #333333;
 }
 
 .btn-primary:hover {
     background-color: #827D7D;
-    border-color: #333333;
+    border-color: #827D7D;
 }
 
 .navbar {
