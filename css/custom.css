@@ -49,6 +49,10 @@ a img:hover, a img:focus {
     color: #000;
 }
 
+.navbar-custom.is-fixed .nav li a:hover, .navbar-custom.is-fixed .nav li a:focus {
+    color: #0085a1;
+}
+
 .container-fluid-custom {
     text-align: center;
     display: inline-block;
