@@ -20,6 +20,11 @@ a img:hover, a img:focus {
     border-color: #827D7D;
 }
 
+.carousel-caption {
+    webkit-text-stroke-width: 1px;
+    webkit-text-stroke-color: black;
+}
+
 .navbar {
   margin-bottom: 0px;
   text-align: center;
