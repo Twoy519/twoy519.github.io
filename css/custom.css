@@ -123,3 +123,7 @@ p a {
 .caption {
     font-style: normal;
 }
+
+.no-border {
+    border: none;
+}
