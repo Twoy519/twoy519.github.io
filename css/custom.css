@@ -127,3 +127,20 @@ p a {
 .no-border {
     border: none;
 }
+
+.glyphicon-chevron-left {
+    color: darkslategrey;
+}
+
+.glyphicon-chevron-right {
+    color: darkslategrey;
+}
+
+.post-title {
+    text-align: center;
+}
+
+.iframe_embed{
+    display: block;
+    margin: 0 auto;
+}
