@@ -76,7 +76,7 @@ a img:hover, a img:focus {
 .carousel-inner > .item > img {
     line-height: 1;
     /*height: 600px;*/
-    position: relative;
+    /*position: relative;*/
     left: 12.5%;
     max-width: 75%;
 }
@@ -143,4 +143,11 @@ p a {
 .iframe_embed{
     display: block;
     margin: 0 auto;
+}
+
+.slideshowImg {
+  width: auto;
+  height: 400px;
+  max-height: 400px;
+  margin: 0 auto;
 }
