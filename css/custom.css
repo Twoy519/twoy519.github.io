@@ -151,3 +151,7 @@ p a {
   max-height: 400px;
   margin: 0 auto;
 }
+
+.post-preview {
+    text-align: center;
+}
