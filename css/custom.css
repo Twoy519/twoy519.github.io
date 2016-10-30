@@ -146,12 +146,20 @@ p a {
 }
 
 .slideshowImg {
-  width: auto;
-  height: 400px;
-  max-height: 400px;
-  margin: 0 auto;
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+    margin: 0 auto;
 }
 
 .post-preview {
     text-align: center;
+}
+
+h1, h2 {
+    font-weight: 400;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 100;
 }
