@@ -6,6 +6,12 @@ a img:hover, a img:focus {
     cursor: pointer;
 }
 
+body {
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
 .btn {
     border-radius: 4px;
 }
@@ -36,6 +42,9 @@ a img:hover, a img:focus {
 
 .navbar-custom{
     background-color: white;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 
 .navbar-custom .nav li a {
@@ -146,10 +155,10 @@ p a {
 }
 
 .slideshowImg {
-  width: auto;
-  height: 400px;
-  max-height: 400px;
-  margin: 0 auto;
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+    margin: 0 auto;
 }
 
 .post-preview {
