@@ -1,3 +1,18 @@
+::selection {
+  background: #a95252; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #a95252; /* Gecko Browsers */
+}
+
+a {
+    color: #a95252;
+}
+
+.a-hotel {
+    color:#333;
+}
+
 a:hover, a:focus {
     color: #827D7D;
 }
