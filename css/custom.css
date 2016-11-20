@@ -155,3 +155,21 @@ p a {
 .post-preview {
     text-align: center;
 }
+
+.booked a{
+    background: #FC4C1E;
+    border-color: #FC4C1E;
+}
+
+.booked:hover a{
+    background: #FF9073;
+    border-color: #FF9073;
+}
+
+.booked a span{
+  display: none;
+}
+
+.booked a:after{
+  content: 'All Booked Up';
+}
